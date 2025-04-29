@@ -1,15 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Web Project</title>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+      font-style: italic;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 2em;
+    }
+
+    .btn {
+      font-size: 1.2em;
+      padding: 12px 24px;
+      background-color: #1e1e1e;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
-  <body style="background-image: url('https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; color: aliceblue; line-height: 1.6; max-width: 1200px; margin: auto; padding: 20px;font-style: italic">
- <br><br>
-    <center style="font-size: 2.5em;" >Welcome to My Personal portfolio</center>
-  <br>
-  <br>
-  <center>
-         <a href="code.html" style="font-size: 1.5em; padding: 8px 15px; background-color: #333; color: white; border-radius: 5px; text-decoration: none; margin: 10px;">Click</a>
-  </center>
+<body>
+  <h1>Welcome to My Personal Portfolio</h1>
+  <p>Explore my work, projects, and more. Click below to begin your journey through my digital world.</p>
+  <a href="code.html" class="btn">Enter Portfolio</a>
 </body>
 </html>
