@@ -5,35 +5,40 @@
   <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
       font-family: 'Poppins', sans-serif;
+    }
+    body {
       background-image: url('https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      background-attachment: fixed;
       color: aliceblue;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
       text-align: center;
+      padding: 20px;
     }
-
     h1 {
       font-size: 3em;
       margin-bottom: 0.5em;
       font-style: italic;
     }
-
     p {
       font-size: 1.2em;
       max-width: 600px;
       margin-bottom: 2em;
     }
-
     .btn {
       font-size: 1.2em;
       padding: 12px 24px;
@@ -44,7 +49,6 @@
       text-decoration: none;
       transition: background-color 0.3s ease;
     }
-
     .btn:hover {
       background-color: #555;
     }
